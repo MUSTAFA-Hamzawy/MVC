@@ -11,16 +11,13 @@ class model
     public function __construct()
     {
         // optional
-        $host     = 'localhost';
-        $userName = 'root';
-        $password = '';
-        $port     = 3306;
-        $db_name = 'revision';
+        $host     = HOST_NAME;
+        $userName = USER_NAME;
+        $password = PASSWORD;
+        $port     = PORT;
+        $db_name  = DATABASE_NAME;
 
-        // required
-        if (!empty($options['db_name'])){
-            $db_name = $options['db_name'];
-        }
+
         $dsn = "mysql:host={$host};port={$port};dbname={$db_name}";
 
         // connect
