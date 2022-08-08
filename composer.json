@@ -1,6 +1,6 @@
 {
 
-  "name": "mustafa/mvc",
+  "name": "hamzawy/mvc",
   "description": "MVC design pattern using php",
   "require": {
     "php": ">=7.4",
