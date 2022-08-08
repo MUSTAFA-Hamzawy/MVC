@@ -2,9 +2,8 @@
 An architectural pattern
 
 <h2> prerequisites
+   
     
-autoload
-    
-    ```sh
+```sh
     composer dump-autoload -o
-    ```
+```
